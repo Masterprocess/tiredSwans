@@ -1,0 +1,28 @@
+{
+  "name": "tired-swans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "scripts": {
+    "build-js": "browserify assets/js/logic.js -o assets/js/bundle.js",
+    "watch-js": "watchify assets/js/logic.js -o assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterprocess/tiredSwans.git"
+  },
+  "author": "Christopher Rackley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterprocess/tiredSwansissues"
+  },
+  "homepage": "https://github.com/masterprocess/tiredSwans#readme",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "materialize-css": "^0.100.1"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "watchify": "latest"
+  }
+}
